@@ -29,6 +29,50 @@
         <div class="banner">
             <img src="image.png" class="banner-img"/>
         </div>
+        <div class="popup">
+            <div class="close">
+                <button class="close-btn">
+                    <img src="close.svg">
+                </button>
+            </div>
+        <form action="" method="get" class="form">
+            <p class="form-header">Войти в систему</p>
+            <div class="form-field">
+                <input type="email" 
+                name="email" 
+                id="email" 
+                class="form-input"
+                placeholder="Email/Телефон" 
+                required />
+            </div>
+            <div class="form-field">
+                <input type="password" 
+                name="pass" 
+                id="pass" 
+                class="form-input"
+                placeholder="Пароль" 
+                required />
+            </div>
+            <div class="password-checkbox">
+                <input type="checkbox" id="password" name="password" checked />
+                <label for="password">Запомнить пароль</label>
+            </div>
+            <div class="restore-container">
+                <span><a class="restore" href="#">Восстановить</a></span>
+            </div>
+          <div class="signBtn">
+            <input type="submit" 
+            value="Войти" 
+            class="signInBtn" />
+          </div>
+           <div class="signBtn">
+            <input type="submit" 
+            value="Зарегестрироваться"
+            class="signUpBtn" />
+          </div>
+        </form>
     </div>
+    </div>
+    <script src='main.js'></script>
 </body>
 </html>
