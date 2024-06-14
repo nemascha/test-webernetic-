@@ -155,7 +155,7 @@
 
 .popup {
     width: 30%;
-    height: 45%;
+    min-height: 45%;
     background: #F0F4FC;;
     box-shadow: var(--shadow);
     -webkit-border-radius: 6px;
@@ -198,6 +198,7 @@
     border-radius: 10px;
     width: 10%;
     height: 10%;
+    padding: 2%;
 }
 
 .form-header {
@@ -270,7 +271,7 @@
 @media (max-width: 670px) {
     .popup {
         width: 80%;
-        height: 45%;
+        min-height: 45%;
         background: #F0F4FC;;
         box-shadow: var(--shadow);
         -webkit-border-radius: 6px;
